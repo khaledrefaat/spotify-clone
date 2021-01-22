@@ -1,0 +1,39 @@
+.login {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.login > img {
+    width: 100%;
+    margin-top: -20rem;
+}
+
+.login > a {
+    padding: 2rem;
+    color: #fff;
+    font-size: 1.4rem;
+    background-color: #15883e;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 10rem;
+    font-weight: 700;
+    text-decoration: none;
+    transform: translateY(0);
+}
+
+.login > a:hover {
+    background-color: #1db954;
+}
+
+.login > a:active {
+    transform: translateY(2px);
+}
+
+@media only screen and (min-width: 56.25em) {
+    .login > img {
+        width: auto;
+    }
+}
